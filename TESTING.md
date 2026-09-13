@@ -27,3 +27,9 @@ The machine-readable test report and full verification log in the delivery artif
 - Store submission, review and publication. These require the owner's GO and have not occurred.
 
 The hosted demo is tested separately in the available cloud Chromium browser when deployment is available. That checks the fictional web interface only. A screenshot cannot prove Microsoft integration or desktop Edge installation.
+
+## Hosted demo acceptance — 13 September 2026
+
+Verified in the available cloud Chrome browser against the public GitHub Pages demo: initial owner view; member Edit and reader Read views; denied details; sharing scopes and expanded returned recipients; all four expiration states; lazy folder expansion and bounded scan; two saved observations with exactly one simulated change; history hidden after switching to denied visibility; search filtering.
+
+The web UI was visually inspected. These are browser tests of fictional data, not Microsoft 365 or desktop Edge acceptance. The JSON export action was exercised without a UI error, but the remote browser did not expose a download event; the file-download behavior remains a real Edge acceptance item. Export content/redaction and CSV formula neutralization passed automated tests.
